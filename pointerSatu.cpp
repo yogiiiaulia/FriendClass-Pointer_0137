@@ -9,7 +9,7 @@ class mahasiswa{
 };
 
 int main(){
-    mahasiswa mhs(1); //Object mhs
+    mahasiswa mhs{1}; //Object mhs
     mhs.showNim(); //member access operator
 
     mahasiswa &refMhs = mhs; //Pointer Reference
