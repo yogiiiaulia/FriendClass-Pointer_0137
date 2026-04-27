@@ -11,3 +11,12 @@ public:
     }
 };
 
+int main()
+{
+    mahasiswa *mhs = new mahasiswa{}; // pointer Object mhs
+    mhs->nim = 2;
+    mhs->showNim();
+    delete mhs;
+    return 0;
+}
+pointer 2
